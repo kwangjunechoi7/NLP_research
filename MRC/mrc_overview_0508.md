@@ -162,6 +162,28 @@
 #### Typical Deep-Learning methods
 - traditional rule-based method나 machine-learning method와 비교했을 때, deep-learning techniques는 주요한 contextual information을 추출하는데 있어 우월성을 보인다.
 
+
+#### Performance-boosting Approaches for MRC Tasks
+- Linguistic Embedding
+- Multi-round Reasoning
+- Reinforcement Learning
+- Data Augmentation
+
+
+#### Transfer Learning in MRC Models
+- Feature-based Trnasfer Learning
+    + Context Vectors
+    + Embeddings from Language Models
+- Fine-tuning-based Transfer Learning
+    + Generative Pre-training for Trnasformers
+    + Bidirectional Encoder Representations from Transformers
+
+
+#### Knowledge Base Encoding in MRC Models?
+-  
+
+
+
 ## R**eferences**
 
 - [A STUDY OF THE TASKS AND MODELS IN MACHINE READING COMPREHENSION](https://arxiv.org/pdf/2001.08635.pdf)

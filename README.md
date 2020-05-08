@@ -1,5 +1,12 @@
-## Mathematics
-### Statistics and Probabilities
+## N**LP research repogitory**
+직무 수행을 위한 Natural Language Processing research repo입니다.
+
+
+### R**eference**
+
+
+#### Mathematics
+##### Statistics and Probabilities
 | Source | Description |
 |:---:|---|
 | [Statistics 110](https://www.edwith.org/harvardprobability/) | 문과생도 이해할 수 있을 정도로 쉽게 확률론에 대한 설명을 해주는 강의입니다. |
@@ -8,7 +15,7 @@
 
 <br/>
 
-### Linear Algebra
+##### Linear Algebra
 | Source | Description |
 |:---:|---|
 | [Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) | 시각 자료를 통해 직관적 설명을 추구하는 3Blue1Brown 채널의 선형대수 강의입니다. 학부 수준의 선형대수 강의를 수강하기 앞서 해당 강의를 시청하는 것이 선형대수의 흐름 전반을 짚는데 큰 도움을 줄 수 있습니다. |
@@ -18,17 +25,17 @@
 
 <br/>
 
-### Basic mathematics & Overview
+##### Basic mathematics & Overview
 | Source | Description |
 |:---:|---|
-| [Essence of calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr) | 선형대수 섹션에서 설명한 3Blue1Brown 채널의 미적분학 강의입니다. 마찬가지로 학부 수준의 미적분 강의를 진행하기 전 미적분을 이해하는데 도움을 줄 수 있는 강의입니다. | 
+| [Essence of calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr) | 선형대수 섹션에서 설명한 3Blue1Brown 채널의 미적분학 강의입니다. 마찬가지로 학부 수준의 미적분 강의를 진행하기 전 미적분을 이해하는데 도움을 줄 수 있는 강의입니다. |
 | [Calculus](https://ocw.mit.edu/ans7870/resources/Strang/Edited/Calculus/Calculus.pdf) | Gilbert Strang 교수의 미적분학 교재입니다. 모든 챕터를 볼 필요는 없지만, Chapter 2-4, 11-13, 15-16 등은 학습하면 좋을 것 같다고 생각해 추가하였습니다. |
 | [Mathematics for Machine Learning](https://mml-book.github.io/) | 머신러닝 학습에 수반되는 수학 지식을 모두 담은 책입니다. 개괄적 설명을 이어나가기에 이공계 학부 수준의 수학 지식은 선행되어야 이해하기 수월할 것이라 생각합니다. |
 
 <br/>
 
-## Deep Learning and Natural Language Processing
-### Deep Learning
+#### Deep Learning and Natural Language Processing
+##### Deep Learning
 | Source | Description |
 |:---:|---|
 | [모두를 위한 딥러닝](https://www.youtube.com/watch?v=BS6O0zOGX4E&list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm) | Clova AI를 리드하고 계신 김성훈님의 딥러닝 강의입니다. 입문 수준으로 최고의 강의입니다. |
@@ -40,7 +47,7 @@
 
 <br/>
 
-### Natural Language Processing 
+##### Natural Language Processing
 | Source | Description |
 |:---:|---|
 | [한국어 임베딩](http://www.yes24.com/Product/Goods/78569687) | ratsgo라는 필명으로 유명한 이기창님의 자연어 처리 서적입니다. 제목은 한국어 '임베딩' 이지만 현대 자연어 처리의 근간이 되는 모든 지식을 함축하고 있는 좋은 책입니다. 특히 수식으로 가득하여 어려울 수 있는 내용들이 정말 간결한 설명으로 소개하고 있기 때문에 자연어 처리를 처음 접하는 분들에게는 좋은 입문 서적이 될수도, 자연어 처리를 접하기는 했지만 수식에 대한 정확한 이해가 부족했던 분들에게는 좋은 보충서가 될 수 있는 명저입니다. |
@@ -51,13 +58,13 @@
 | [CS224N ](https://www.youtube.com/watch?v=8rXD5-xhemo&list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z) |  Stanford 대학의 자연어 처리 명강의입니다. 2019년 버전까지 나왔기 때문에 최신 트렌드까지 다룬다는 큰 장점이 있습니다. |
 | [CS224U ](https://www.youtube.com/watch?v=tZ_Jrc_nRJY&list=PLoROMvodv4rObpMCir6rNNUlFAn56Js20) |  GLUE 벤치마크의 등장 이후 그 중요성이 한층 더해진 자연어 이해 강의입니다. CS224N 이후 수강하면 좋을 것 같아보이며, PyTorch로 과제를 제공한다는 점이 매력적입니다. |
 | [Natural Language Processing Seminar](https://www.youtube.com/playlist?list=PLTPQEx-31JXjCgihnsrjqqLb7eegju6kr) | 자연어 처리 관련 연구로 유명한 워싱턴 대학교 Allen School의 자연어 처리 세미나 플레이 리스트입니다. 유명 연구진들이 여러 주제로 유익한 세미나를 진행합니다. |
-| [Code-First Intro to Natural Language Processing](https://www.youtube.com/playlist?list=PLtmWHNX-gukKocXQOkQjuVxglSDYWsSh9) | fast.ai의 공동 설립자 Rachel Thomas가 진행하는 코드로 이해하는 자연어 처리 강의입니다. 강의를 듣다보면 Rachel Thomas가 내뿜는 Motivation에서 헤어나올 수 없게 됩니다. | 
+| [Code-First Intro to Natural Language Processing](https://www.youtube.com/playlist?list=PLtmWHNX-gukKocXQOkQjuVxglSDYWsSh9) | fast.ai의 공동 설립자 Rachel Thomas가 진행하는 코드로 이해하는 자연어 처리 강의입니다. 강의를 듣다보면 Rachel Thomas가 내뿜는 Motivation에서 헤어나올 수 없게 됩니다. |
 | [Natural Language Processing with PyTorch](https://www.amazon.com/Natural-Language-Processing-PyTorch-Applications/dp/1491978236) | 양질의 데이터 과학 책을 출판하기로 유명한 O'REILLY 사의 자연어 처리 서적입니다. 기본 코드가 PyTorch로 작성되어 있으므로, PyTorch 유저분들이 읽기 좋은 책입니다. |
 | [Linguistic Fundamentals for Natural Language Processing](https://www.amazon.com/Linguistic-Fundamentals-Natural-Language-Processing/dp/1627050116) | Bender rule로 유명한 언어학자 Emily Bender의 언어학 서적입니다. 딥러닝 관련 서적은 아니지만 언어학과 관련된 도메인 지식을 기를 수 있는 훌륭한 입문서입니다. |
 
 <br/>
 
-## Libraries related to the Natural Language Processing
+#### Libraries related to the Natural Language Processing
 | Source | Description |
 |:---:|---|
 | [NumPy](http://cs231n.github.io/python-numpy-tutorial/) | 머신러닝 연산에 필수적으로 사용되는 NumPy를 Stanford CS231N 강좌에서 정리해주었습니다. |
@@ -77,12 +84,12 @@
 
 <br/>
 
-## Useful materials
+#### Useful materials
 - [The Big Bad NLP Database](https://quantumstat.com/dataset/dataset.html)
 
 <br/>
 
-## AWESOME blogs
+#### AWESOME blogs
 | Blog | Article you should read |
 |---|:---:|
 | [Christopher Olah's Blog](https://colah.github.io/) | [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/) |
@@ -101,7 +108,7 @@
 
 <br/>
 
-## Communities
+#### Communities
 - [Allen AI NLP Highlights](https://allenai.org/podcasts/podcasts-all.html)
 - [Tensorflow Korea](https://www.facebook.com/groups/TensorFlowKR/)
 - [PyTorch Korea](https://www.facebook.com/groups/PyTorchKR/)
@@ -118,7 +125,7 @@
 
 <br/>
 
-## NLP Specialists You should remember
+#### NLP Specialists You should remember
 *(not enumarted by rank)*
 
 | Name | Description | Known for |
@@ -150,7 +157,7 @@
 | Dan Jurafsky | Professor @Stanford Univ. | [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/)
 | Graham Neubig | Professor @CMU | [Neural Nets for NLP](https://www.youtube.com/watch?v=pmcXgNTuHnk&list=PL8PYTP1V4I8Ajj7sY6sdtmjgkt7eo2VMs) |
 | Sam Bowman | Professor @NYU | [NLI Benchmark](https://nlp.stanford.edu/pubs/snli_paper.pdf) |
-| Nikita Kitaev | Ph.D Candidate @UC Berkeley | [Reformer](https://arxiv.org/abs/2001.04451) | 
+| Nikita Kitaev | Ph.D Candidate @UC Berkeley | [Reformer](https://arxiv.org/abs/2001.04451) |
 | Zihang Dai | Ph.D Candidate @CMU | [Transformer-XL](https://arxiv.org/abs/1901.02860) |
 | Zhilin Yang | Ph.D Candidate @CMU | [XLNet](https://arxiv.org/abs/1906.08237) |
 | Abigail See | Ph.D Candidate @Stanford Univ. | [Pointer Generator](http://www.abigailsee.com/2017/04/16/taming-rnns-for-better-summarization.html) |
@@ -159,7 +166,7 @@
 
 <br/>
 
-## Research Conferences
+#### Research Conferences
 - [ACL](https://www.aclweb.org/portal/)
 - [AAAI](http://www.aaai.org/)
 - [CoNLL](https://www.conll.org/)
@@ -174,4 +181,4 @@
 - [한국어정보처리학회](http://www.kips.or.kr/)
 
 
-##### 출처 : https://github.com/Huffon/NLP101/blob/master/README.md
+####### 출처 : https://github.com/Huffon/NLP101/blob/master/README.md

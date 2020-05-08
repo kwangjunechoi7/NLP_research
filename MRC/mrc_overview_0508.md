@@ -111,11 +111,21 @@
 
 
 ![Cloze tests](./images/cloze_test.PNG)
+##### Cloze Tests
+- 빈칸이 포함된 문장이 주어진 문제에서 문맥을 파악하여 빈칸의 word나 entity를 채워넣는 방식.
+
+
 ##### CNN & Daily Mail
 - Google Deepmind는 2007년 4월부터 2015년 4월까지 미국 CNN 뉴스기사와 2010년 6월부터 2015년 4월까지 영국 Daily Mail 뉴스기사를 각각 수집함.
 - 정답이 들어있는 문서 셋은 총 312,085건.
 - 원본 문서에 나타나는 entity(단어 또는 구/절)들을 익명화하여 변환 후, X로 명기된 entity를 찾는 질문셋 1,384,887건을 구축함.
 - 하지만 entity에 대한 빈칸 채우기 문제 Colze test는 독해력이 낮아 MRC 판별에 변별력이 낮다는 지적이 있음.
+
++ example
+    + Context:the ent381 producer allegedly struck by ent212 will not press charges against the “ent153” host, his lawyer said Friday. ent212, who hosted one of the most-watched television shows in the world, was dropped by the ent381 Wednesday after an internal investigation by the ent180 broadcaster found he had subjected producer ent193 “to an unprovoked physical and verbal attack.”
+    + Question: producer X will not press charges against ent212, his lawyer says.
+    + Answer : ent193
+
 
 
 ![Multiple choice](./images/multiple_choice.PNG)
@@ -159,9 +169,14 @@
 
     + Answer Prediction : MRC system의 마지막 요소로 이전 모듈들의 정보 연산을 통해 획득한 final answer을 output으로 출력함. task에 따라서 별개로 적용됨. Cloze Task의 경우 output이 original context 속 word 또는 entity가 됨. free answering task의 경우 generation techniques가 활용되기도 함.
 
+#### MRC model examples
+- DrQA, R.M-Readers, SAN etc..
+
 
 ### O**verview of MRC Models**
-
+- 합리적인 architecture design 선택
+- representations of semantically associated words를 통합하기 위해 적절함 attention machanism을 선택할 필요가 있음.
+- apply appropriate performance-boosting approaches.
 
 #### Typical Deep-Learning methods
 - traditional rule-based method나 machine-learning method와 비교했을 때, deep-learning techniques는 주요한 contextual information을 추출하는데 있어 우월성을 보인다.

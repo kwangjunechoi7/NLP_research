@@ -151,7 +151,16 @@
 - Context-Question Interaction
 - Answer Prediction
 
+    + Embedding : 기계가 자연어를 직접 이해할 수 없기 때문에 MRC 시스템 시작 시 입력 단어를 고정 길이 벡터로 변경하는 임베딩 필요. context와 question을 input으로 사용하여 context와 question에 대한 embedding 값을 출력함.
 
+    + Feature Extraction : context와 question을 더 잘 이해하기 위해 contextual information을 추출하는 것을 목표로함.
+
+    + Context-Question Interaction : context와 question의 상관관계는 답을 예측하는데 있어 중요한 역할을 함. 이런 정보를 통해 기계는 질문에 대단하는데 어떤 context 부분이 주요하게 작용하는지 알아낼 수 있음. 둘 사이의 interaction을 추츨을 위해 query와 관련된 context의 일부를 강조하기 위한 단방향 혹은 양방향 attention mechanism이 활용됨.
+
+    + Answer Prediction : MRC system의 마지막 요소로 이전 모듈들의 정보 연산을 통해 획득한 final answer을 output으로 출력함. task에 따라서 별개로 적용됨. Cloze Task의 경우 output이 original context 속 word 또는 entity가 됨. free answering task의 경우 generation techniques가 활용되기도 함.
+
+#### Typical Deep-Learning methods
+- traditional rule-based method나 machine-learning method와 비교했을 때, deep-learning techniques는 주요한 contextual information을 추출하는데 있어 우월성을 보인다. 
 
 ## R**eferences**
 

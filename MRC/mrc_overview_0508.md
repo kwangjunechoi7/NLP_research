@@ -55,6 +55,7 @@
     + 정보 검색을 통해 해당 질의에 대해 정답을 포함하는 문서를 찾는 정보 검색 과정을 거친 후 검색된 문장 내에서 질의에 대한 정답을 추출.
 - Knowledge base Question Answering
     + 질의에서 묻고자 하는 토픽 개체를 인식하고 토픽 개체와 질의 문장과의 관계 추출 과정을 거친 후 질문의 해당 정답을 지식 기반(Knowledge Base)상의 트리플 내에서 찾는 방식.
+    + 위키피디아 Info Box를 DB화 s-p-o(주어-관계-답) 형태의 그래프로 다 이루어짐
 
 - IR-based Question Processing
     + Answer type Detection

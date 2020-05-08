@@ -160,7 +160,7 @@
     + Answer Prediction : MRC system의 마지막 요소로 이전 모듈들의 정보 연산을 통해 획득한 final answer을 output으로 출력함. task에 따라서 별개로 적용됨. Cloze Task의 경우 output이 original context 속 word 또는 entity가 됨. free answering task의 경우 generation techniques가 활용되기도 함.
 
 #### Typical Deep-Learning methods
-- traditional rule-based method나 machine-learning method와 비교했을 때, deep-learning techniques는 주요한 contextual information을 추출하는데 있어 우월성을 보인다. 
+- traditional rule-based method나 machine-learning method와 비교했을 때, deep-learning techniques는 주요한 contextual information을 추출하는데 있어 우월성을 보인다.
 
 ## R**eferences**
 
@@ -168,3 +168,16 @@
 - [Neural Machine Reading Comprehension: Methods and Trends](https://arxiv.org/pdf/1907.01118.pdf)
 - [BI-DIRECTIONAL ATTENTION FLOW FOR MACHINE COMPREHENSION, 2017](https://arxiv.org/pdf/1611.01603.pdf)
 - [LG sciencepark Korean MRC Demo](http://35.226.109.43:8000/)
+
+
+
+#### 18-19 Language representation models
+|발표날짜|모델|저자|
+|------|---|---|
+|2018/02|ELMo|Allen AI & UW|
+|2018/05|GPT-1|OpenAI|
+|2018/10|BERT|Google|
+|2019/07|XLNet|CMU & Google Brain|
+|2019/07|RoBERTa|Facebook AI Reaserch, FAIR|
+|2019/09|ALBERT|Google & TTIC|
+|2019/10|T5|Google|

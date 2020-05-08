@@ -159,8 +159,18 @@
 
     + Answer Prediction : MRC system의 마지막 요소로 이전 모듈들의 정보 연산을 통해 획득한 final answer을 output으로 출력함. task에 따라서 별개로 적용됨. Cloze Task의 경우 output이 original context 속 word 또는 entity가 됨. free answering task의 경우 generation techniques가 활용되기도 함.
 
+
+### O**verview of MRC Models**
+
+
 #### Typical Deep-Learning methods
 - traditional rule-based method나 machine-learning method와 비교했을 때, deep-learning techniques는 주요한 contextual information을 추출하는데 있어 우월성을 보인다.
+
+
+#### Attention Mechanisms for MRC Models
+- Mutual-matching Attention
+- Self-matching Attention
+- Multi-round Attention
 
 
 #### Performance-boosting Approaches for MRC Tasks

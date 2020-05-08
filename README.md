@@ -1,4 +1,4 @@
-## N**LP research repogitory**
+## N**LP research**
 직무 수행을 위한 Natural Language Processing research repo입니다.
 
 

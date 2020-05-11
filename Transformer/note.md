@@ -25,4 +25,11 @@
 - 이 embedding은 가장 밑단의 encoder에서만 일어남. 문장의 단어들을 embedding한 뒤에 각 단어에 해당하는 벡터들은 encoder내의 두 개의 sub-layer로 들어감.
 - 각 단어가 그만의 path를 통해 encoder에서 흘러간다는 transformer 모델의 주요 성질을 볼 수 있음. self-attention층에서 이 위치에 따른 path들 사이에 다 dependency가 있음. 반면, feed-forward 층은 이런 dependency가 없기 때문에 feed-forward layer 내의 다양한 path들은 병렬처리 될 수 있음.
 - encoder는 입력으로 vertor들의 list를 받음. 이 list를 먼저 self-attention layer로 보냄. 그 뒤 feed-forward신경망에 통과시키고 그 결과물을 다음 encoder에게 전달함. 각 단어들은 각각 다른 self-encoding과정을 거침. 그 다름으로는 모두에게 같은 과정인 feed-forward 신경망을 거침.
-- 
+- how to calculate self-attention? self-attention 연산의 첫 단계는 encoder에 입력된 벡터들(보통 각 단어의 embedding 벡터)에게서부터 각 3개의 vector를 만들어 내는 일. 각 단어에 대한 query, key, Value vectors.
+- x1를 weight 행렬인 WQ로 곱하는 것은 현재 단어와 연관된 query 벡터인 q1를 생성함. 같은 방법으로 우리는 입력 문장에 있는 각 단어에 대한 query, key, value 벡터를 만들 수 있음.
+- what does those meaning? attention에 대해서 생각하고 계산하려고 할때 사용하는 추상적인 개념.
+- self-attention 계산의 두 번째 스텝은 점수를 계산하는 것. 아래 예시의 첫 번째 단어인 thinking에 대해서 self-attention을 계산한다고 가정. 이 단어와 입력 문장 속의 다른 모든 단어들에 대해서 각가 점수를 계산함. 이 점수는 현재 위치의 이 단어를 encode 할 때 다른 단어들에 대해서 얼마나 attention하는지를 결정.
+- score는 현재 단어의 query vector와 점수를 매기려하는 다른 위치에 있는 단어의 key vector의 내적으로 계산됨. 다시 말해 어떤 단어에 대한 self-attention을 계산한다 했을 때, score는 q1과 k1의 내적일 것.
+
+##### tensor2tensor colab notebooks
+https://colab.research.google.com/github/tensorflow/tensor2tensor/blob/master/tensor2tensor/notebooks/hello_t2t.ipynb

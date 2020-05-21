@@ -7,7 +7,7 @@
 
 ##### Temp_list
 - [BERT for Question Answering on SQuAD 2.0 ](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/reports/default/15848021.pdf)
-
+- [자연어의 이해_김재희](http://www.aistudy.co.kr/linguistics/natural/nlp_kimjh.htm)
 
 
 #### Mathematics
